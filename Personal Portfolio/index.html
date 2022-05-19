@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio</title>
+    <!-- Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+
+    <!-- Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Iconscout -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+    <!--- Swiper JS-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="#"><h3>Nasim</h3></a>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Let's Talk</a></li>
+            </ul>
+            <button id="menu-btn">
+                <span class="material-icons-sharp">menu</span>
+            </button>
+            <button id="close-btn">
+                <span class="material-icons-sharp">close</span>
+            </button>
+        </div>
+
+    </nav> 
+
+    <!-- End Of Nav Bar-->
+
+    <section class="landing">
+        <div class="container">
+            <div class="socials">
+                <a href="http://facebook.com/" target="_black"><i class="uil uil-facebook-f"></i></a>
+                <a href="http://linkedin.com/" target="_black"><i class="uil uil-linkedin"></i></a>
+                <a href="http://github.com/" target="_black"><i class="uil uil-github"></i></a>
+            </div>
+            <div class="info">
+                <h1>Fullstack Web Developper</h1>
+                <h3>Hi, I'm Nasim Mahmud</h3>
+                <p>My Name is Nasim Mahmud. I am a student Computer Science and Engineering. And this is my favourite subject. My Hometown is Rajshahi. I have passed my SSC and HSC from Premtali Sukbasia High School and Rajshahi Govt. City College. Actually I have admitted in CSE because of my passionate and I am going to love it. My interested fields are Artificial intelligence, Web Developments, Machine learning, Data Science and IOT.I am also learning these languages C,Java.HTML, CSS,Javascript, Python etc. I like to become a Researcher and i like to work with my interesting fields.</p>
+                <a href="#contact" class="btn btn-primary">Let's Talk</a>
+            </div>
+            <div class="profile-area">
+                <div class="outer-circle">
+                    <span class="material-icons-sharp">design_services</span>
+                    <span class="material-icons-sharp">dns</span>
+                    <span class="material-icons-sharp">code</span>
+                    <span class="material-icons-sharp">integration_instructions</span>
+                </div>
+                <div class="inner-circle">
+                    <img src="./images/me1.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End of Section -->
+
+
+    <section class="about" id="about">
+        <h1>About</h1>
+        <div class="container">
+            <div class="image">
+                <img src="./images/me.JPG">
+            </div>
+            <div class="info">
+                <p>My Name is Nasim Mahmud. I am a student Computer Science and Engineering. And this is my favourite subject. My Hometown is Rajshahi. I have passed my SSC and HSC from Premtali Sukbasia High School and Rajshahi Govt. City College. Actually I have admitted in CSE because of my passionate and I am going to love it. My interested fields are Artificial intelligence, Web Developments, Machine learning, Data Science and IOT.I am also learning these languages C,Java.HTML, CSS,Javascript, Python etc. I like to become a Researcher and i like to work with my interesting fields.</p>
+                <div class="read-more-content">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe pariatur cumque accusamus illum vel optio! Minus mollitia libero molestias sint quod cumque vero voluptates explicabo minima neque aliquid deleniti similique esse a vel accusamus, eaque quia amet quo quidem aut? Minima eum sint illum totam! Non nulla minima illum officiis sapiente atque, ut quasi debitis. Eum veniam vero, provident ipsum sunt nostrum in culpa excepturi itaque sed maiores et rem, odit quasi illum molestiae fuga ipsam velit nulla minus! Culpa, impedit velit incidunt cupiditate cum ratione iste officiis aspernatur officia?</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime esse impedit autem, ipsa excepturi temporibus aliquam magnam. Est voluptatem vitae facere dignissimos perferendis quisquam, adipisci iusto et, consequatur facilis, aperiam hic autem itaque illum suscipit eligendi rerum pariatur doloribus earum?</p>
+
+                </div>
+                <a class="read-more">Show More</a>
+                <a href="./images/CV.pdf" download class="btn btn-primary"><i class="uil uil-download-alt"></i>Download CV</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!---------- End of About  -->
+    
+    <section class="skills" id="skills">
+        <h1>Skills</h1>
+        <div class="container">
+            <div class="skill">
+                <div class="head">
+                    <div class="left">
+                        <span class="material-icons-sharp">design_services</span>
+                        <h4>Programming Language</h4>
+                    </div>
+                    <span class="material-icons-sharp">expand_more</span>
+                </div>
+                <div class="items">
+                    <div class="item">
+                        <h5>C</h5>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>90%</h5>
+                        </div>
+                    </div>
+                    <!--- End Item-->
+                    <div class="item">
+                        <h5>PHP</h5>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>85%</h5>
+                        </div>
+                    </div>
+                    <!--- End Item-->
+                    <div class="item">
+                        <h5>Java</h5>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>78%</h5>
+                        </div>
+                    </div>
+                    <!--- End Item-->
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="skill">
+                <div class="head">
+                    <div class="left">
+                        <span class="material-icons-sharp">code</span>
+                        <h4>Frontend Development</h4>
+                    </div>
+                    <span class="material-icons-sharp">expand_more</span>
+                </div>
+                <div class="items">
+                    <div class="item">
+                        <h5>HTML</h5>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>92%</h5>
+                        </div>
+                    </div>
+                    <!--- End Item-->
+                    <div class="item">
+                        <h5>CSS</h5>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>90%</h5>
+                        </div>
+                    </div>
+                    <!--- End Item-->
+                    <div class="item">
+                        <h5>JavaScript</h5>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>84%</h5>
+                        </div>
+                    </div>
+                    <!--- End Item-->
+                    <div class="item">
+                        <h5>Bootstrap</h5>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>80%</h5>
+                        </div>
+                    </div>
+                    <!--- End Item-->
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="skill">
+                <div class="head">
+                    <div class="left">
+                        <span class="material-icons-sharp">dns</span>
+                        <h4>Backend Development</h4>
+                    </div>
+                    <span class="material-icons-sharp">expand_more</span>
+                </div>
+                <div class="items">
+                    <div class="item">
+                        <h5>PHP</h5>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>88%</h5>
+                        </div>
+                    </div>
+                    <!--- End Item-->
+                    <div class="item">
+                        <h5>Python</h5>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>80%</h5>
+                        </div>
+                    </div>
+                    <!--- End Item-->
+                    <div class="item">
+                        <h5>MySQL</h5>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>84%</h5>
+                        </div>
+                    </div>
+                    <!--- End Item-->
+                    <div class="item">
+                        <h5>Node</h5>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>75%</h5>
+                        </div>
+                    </div>
+                    <!--- End Item-->
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="skill">
+                <div class="head">
+                    <div class="left">
+                        <span class="material-icons-sharp">settings_suggest</span>
+                        <h4>Microsoft Office</h4>
+                    </div>
+                    <span class="material-icons-sharp">expand_more</span>
+                </div>
+                <div class="items">
+                    <div class="item">
+                        <h5>Microsoft Word</h5>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>95%</h5>
+                        </div>
+                    </div>
+                    <!--- End Item-->
+                    <div class="item">
+                        <h5>Microsoft Excel</h5>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>85%</h5>
+                        </div>
+                    </div>
+                    <!--- End Item-->
+                    <div class="item">
+                        <h5>Microsoft Power Point</h5>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h5>90%</h5>
+                        </div>
+                    </div>
+                    <!--- End Item-->
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--- Ends of Skills    -->
+
+<section class="services" id="services">
+        <h1>Services</h1>
+        <div class="container">
+            <div class="service">
+                <span class="material-icons-sharp">design_services</span>
+                <h3>PHP and Laravel Framework</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum molestias veritatis nihil sequi repellendus, nisi, illum incidunt modi alias dignissimos adipisci amet labore aspernatur tenetur et unde accusantium enim temporibus consequuntur quidem obcaecati. Ratione reiciendis esse, nulla saepe repellendus quo accusamus aperiam. Ab corrupti nostrum temporibus? Repudiandae quasi recusandae nostrum.</p>    
+            </div>
+            <div class="service">
+                <span class="material-icons-sharp">language</span>
+                <h3>Mobile Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum molestias veritatis nihil sequi repellendus, nisi, illum incidunt modi alias dignissimos adipisci amet labore aspernatur tenetur et unde accusantium enim temporibus consequuntur quidem obcaecati. Ratione reiciendis esse, nulla saepe repellendus quo accusamus aperiam. Ab corrupti nostrum temporibus? Repudiandae quasi recusandae nostrum.</p>    
+            </div>
+            <div class="service">
+                <span class="material-icons-sharp">devices</span>
+                <h3>Graphics Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum molestias veritatis nihil sequi repellendus, nisi, illum incidunt modi alias dignissimos adipisci amet labore aspernatur tenetur et unde accusantium enim temporibus consequuntur quidem obcaecati. Ratione reiciendis esse, nulla saepe repellendus quo accusamus aperiam. Ab corrupti nostrum temporibus? Repudiandae quasi recusandae nostrum.</p>    
+            </div>
+        </div>
+</section>
+
+    <!---     End of Services        -->
+
+<section class="recent-work" id="portfolio">
+        <div class="container">
+            <h4>My Recent Work</h4>
+            <h1>Here Are Some of My Most Recent Solo Projects</h1>
+            <div class="projects">
+                <div class="project">
+                    <div class="thubmnail">
+                        <img class="image" src="./images/project1.jpg">
+                    </div>
+                    <h2>Student Management System</h2>
+                    <p>This system is completely Web based project.Students can be registered for their academic course.Technology used: HTML5, CSS, Bootstrap, Larave</p>
+                    <div class="action">
+                        <a href="https://github.com" target="blank">Github</a>
+                        <a href="https://youtube.com" target="blank">Live Project</a>
+                    </div>
+                </div>
+                <!-- End of Project -->
+                    <div class="project">
+                        <div class="thubmnail">
+                            <img class="image" src="./images/project2.jpg">
+                        </div>
+                        <h2> Library Management System</h2>
+                        <p>It’s also a Web based project.Students can found and manage their library materials.Technology Used: HTML5, CSS, Python, Django</p>
+                        <div class="action">
+                            <a href="https://github.com" target="blank">Github</a>
+                            <a href="https://youtube.com" target="blank">Live Project</a>
+                        </div>
+                    </div>
+                    <!-- End of Project -->
+                        <div class="project">
+                            <div class="thubmnail">
+                                <img class="image" src="./images/project3.jpg">
+                            </div>
+                            <h2>Hostel Management System</h2>
+                            <p> A simple hostel management based database project.Technology used: SQL server.This project was an individual project</p>
+                            <div class="action">
+                                <a href="https://github.com" target="blank">Github</a>
+                                <a href="https://youtube.com" target="blank">Live Project</a>
+                            </div>
+                        </div>
+                        <!-- End of Project -->
+                            <div class="project">
+                                <div class="thubmnail">
+                                    <img class="image" src="./images/project4.png">
+                                </div>
+                                <h3>Complete Responsive E-Commers Website</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, dignissimos. Id aliquam accusantium illo aut?</p>
+                                <div class="action">
+                                    <a href="https://github.com" target="blank">Github</a>
+                                    <a href="https://youtube.com" target="blank">Live Project</a>
+                                </div>
+                            </div>
+                            <!-- End of Project -->       
+                </div>
+            </div>
+    </section>
+
+    <!-----  End of Recent Work (Portfolio)     -->
+
+
+    <section class="testimonials">
+        <h1>Testimonials</h1>
+        <div class="container swiper">
+            <div class="carousel swiper-wrapper">
+                <div class="testimonial swiper-slide">
+                    <div class="head">
+                        <div class="profile-area">
+                            <div class="avatar">
+                                <img src="./images/a (1).jpg">
+                            </div>
+                            <div class="info">
+                                <h4>Md. Nasim Mahmud</h4>
+                                <small>CSE Engineer (DIU)</small>
+                            </div>
+                        </div>
+                        <div class="stars">
+                                <span class="material-icons-sharp">star_rate</span>
+                                <span class="material-icons-sharp">star_rate</span>
+                                <span class="material-icons-sharp">star_rate</span>
+                                <span class="material-icons-sharp">star_rate</span>
+                                <span class="material-icons-sharp">star_rate</span>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi at explicabo, aliquid sapiente iste veniam, iure quas eum possimus quos odio repudiandae aperiam nobis voluptatibus!</p>
+                </div>
+
+                <!-- End of Testimonial-->
+                <div class="testimonial swiper-slide">
+                    <div class="head">
+                        <div class="profile-area">
+                        <div class="avatar">
+                            <img src="./images/a (2).jpg">
+                        </div>
+                        <div class="info">
+                            <h4>Arafat Rahman</h4>
+                            <small>EEE Engineer (UAP)</small>
+                        </div>
+                        </div>
+                    <div class="stars">
+                            <span class="material-icons-sharp">star_rate</span>
+                            <span class="material-icons-sharp">star_rate</span>
+                            <span class="material-icons-sharp">star_rate</span>
+                            <span class="material-icons-sharp">star_rate</span>
+                            <span class="material-icons-sharp">star_rate</span>
+                    </div>
+                    </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi at explicabo, aliquid sapiente iste veniam, iure quas eum possimus quos odio repudiandae aperiam nobis voluptatibus!</p>
+                </div>
+
+                <!-- End of Testimonial-->
+                <div class="testimonial swiper-slide">
+                    <div class="head">
+                        <div class="profile-area">
+                            <div class="avatar">
+                                <img src="./images/a (3).jpg">
+                            </div>
+                            <div class="info">
+                                <h4>Sabbir Hossain</h4>
+                                <small>EEE Engineer (AIUB)</small>
+                            </div>
+                        </div>
+                        <div class="stars">
+                                <span class="material-icons-sharp">star_rate</span>
+                                <span class="material-icons-sharp">star_rate</span>
+                                <span class="material-icons-sharp">star_rate</span>
+                                <span class="material-icons-sharp">star_rate</span>
+                                <span class="material-icons-sharp">star_rate</span>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi at explicabo, aliquid sapiente iste veniam, iure quas eum possimus quos odio repudiandae aperiam nobis voluptatibus!</p>
+                </div>
+
+            <!-- End of Testimonial-->
+            <div class="testimonial swiper-slide">
+                <div class="head">
+                    <div class="profile-area">
+                        <div class="avatar">
+                            <img src="./images/a (4).jpg">
+                        </div>
+                        <div class="info">
+                            <h4>Kaniz Fatima</h4>
+                            <small>CSE Engineer (DIU)</small>
+                        </div>
+                    </div>
+                    <div class="stars">
+                            <span class="material-icons-sharp">star_rate</span>
+                            <span class="material-icons-sharp">star_rate</span>
+                            <span class="material-icons-sharp">star_rate</span>
+                            <span class="material-icons-sharp">star_rate</span>
+                            <span class="material-icons-sharp">star_rate</span>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi at explicabo, aliquid sapiente iste veniam, iure quas eum possimus quos odio repudiandae aperiam nobis voluptatibus!</p>
+            </div>
+
+            <!-- End of Testimonial-->
+        </div>
+
+        <div class="swiper-scrollbar">
+        <div class="swiper-scrollbar-drag"></div>
+        </div>
+    </div>
+    </section>
+
+
+    <!-------     End of Testimonial    ------->
+
+    <section class="contact" id="contact">
+        <div class="overly">
+            <div class="container">
+                <h1>Let's Talk</h1>
+                <p>Contact me is more formal. Get in touch is casual that's only good if you are talking with friends. However, contact us is better if you are working for a company or if you are in a team.</p>
+                <form action="https://formspree.io/f/xlezaaow" method="POST">
+                    <input type="text" name="Name" placeholder="Name" required>
+                    <input type="email" name="Email" placeholder="Email" required>
+                    <input type="text" name="Subject" placeholder="Subject" required>
+                    <textarea name="Message" placeholder="Message" required></textarea>
+                    <input type="submit" value="Submit" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!----------- End of Contact  ------------->
+
+    <footer>
+        <div class="container">
+            <a href="#"><h3>Nasim</h3></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Let's Talk</a></li>
+            </ul>
+            <div class="socials">
+                <a href="http://facebook.com/" target="_black"><i class="uil uil-facebook-f"></i></a>
+                <a href="http://linkedin.com/" target="_black"><i class="uil uil-linkedin"></i></a>
+                <a href="http://github.com/" target="_black"><i class="uil uil-github"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright &copy; Nasim YouTube Tutorials Video Channel
+        </div>
+    </footer>
+
+    <!-- Swiper  JS-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
